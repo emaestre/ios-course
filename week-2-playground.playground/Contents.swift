@@ -62,3 +62,20 @@ var nice = ["BMW": "Very Nice", "Toyota": "Nice", "Chevrolet": "Not nice"]
 for brand in car_brands {
     print(nice[brand]!)
 }
+
+let x: Double = 1
+let y: Int = 1
+
+let c = 1
+
+/* -------------------------------------------------------------------- */
+/* Functions */
+func add(a: Int, to b: Int) -> Int {
+    return a + b
+}
+
+add(a: 1, to: 2)
+
+
+let noValue:Int? = nil
+let unwrappedValue = noValue!
